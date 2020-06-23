@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity Screenplay and JUnit</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="5c149790114dd4b593fe4764d6ba2cfb8540246ec063f7b617dc177051cb5523.html">Shoppe Story</a></span>
+                > <span class="truncate-60"><a
+                    href="7c94b76dce4199871bc1b849d253f1048c2fa800b935c3c49b47977369acf0b4.html">Click items shopee </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-06-2020 08:55</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Shoppe Story </span>
+                                    <span class="badge tag-badge" style="">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Click items shopee
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="11a9cb857aae2b988798eb6f0fd70e256b17bc914041005e6cf2c5a7d1dadd38.png" title=" Anna opens the https://shopee.vn/" width="1295"/>
+                <img src="3f91a4eccf564f7ada74a0053e6557b1f776596358db96bca8bfe58fd9951555.png" title=" Anna open shopee mall" width="1295"/>
+                <img src="3f91a4eccf564f7ada74a0053e6557b1f776596358db96bca8bfe58fd9951555.png" title=" Anna clicks on close field" width="1295"/>
+                <img src="31ca62e601c7d5e8dc8963ce8f229a113f0d1305582e16a46d7c3e324094090d.png" title=" Anna clicks on close field (completed)" width="1295"/>
+                <img src="31ca62e601c7d5e8dc8963ce8f229a113f0d1305582e16a46d7c3e324094090d.png" title=" Anna clicks on shopee mall field" width="1295"/>
+                <img src="4a71f35983f887cdc5539bdd3d1328869f7080a0a09c8ffc327eae5a455b3e38.png" title=" Anna clicks on shopee mall field (completed)" width="1295"/>
+                <img src="4a71f35983f887cdc5539bdd3d1328869f7080a0a09c8ffc327eae5a455b3e38.png" title=" Anna clicks on close field" width="1295"/>
+                <img src="7b058d956d59290dbac6ae5f872df4d55e20ff07f8e2e29e06434f99674e726b.png" title=" Anna clicks on close field (completed)" width="1295"/>
+                <img src="7b058d956d59290dbac6ae5f872df4d55e20ff07f8e2e29e06434f99674e726b.png" title=" Anna clicks on nha cua &amp; doi song field" width="1295"/>
+                <img src="80d2c6a184f92eed4bf106f406e1717eddc36016f2e6af9c04ad0b22ec32449b.png" title=" Anna clicks on nha cua &amp; doi song field (completed)" width="1295"/>
+                <img src="80d2c6a184f92eed4bf106f406e1717eddc36016f2e6af9c04ad0b22ec32449b.png" title=" Anna open shopee mall (completed)" width="1295"/>
+                <img src="a7b7a6ba03bb24d77c9b4b1643ecb035a12b8e8d7054ea755fefd20131b5c60a.png" title=" Anna items" width="1295"/>
+                <img src="a7b7a6ba03bb24d77c9b4b1643ecb035a12b8e8d7054ea755fefd20131b5c60a.png" title=" Anna clicks on [[ChromeDriver: chrome on WINDOWS (96f1ec202d66ed5d08504e20c594906d)] -&gt; xpath: //div[@class='_1gkBDw']]" width="1295"/>
+                <img src="734f4c729d2a21ccc702da9c6aef7d6884122c6f1b746151c46e2f477116ac59.png" title=" Anna clicks on [[ChromeDriver: chrome on WINDOWS (96f1ec202d66ed5d08504e20c594906d)] -&gt; xpath: //div[@class='_1gkBDw']] (completed)" width="1295"/>
+                <img src="734f4c729d2a21ccc702da9c6aef7d6884122c6f1b746151c46e2f477116ac59.png" title=" Anna items (completed)" width="1295"/>
+                <img src="592b6b923ca1e039b97b31861352cb2ed9ebce04a9a0e2efbb5edf5fe534c8ec.png" title=" Then product image should be (true)" width="1295"/>
+                <img src="592b6b923ca1e039b97b31861352cb2ed9ebce04a9a0e2efbb5edf5fe534c8ec.png" title=" Then product image should be (true) (completed)" width="1295"/>
+                <img src="8d5a5663aa59830899c2083778bc3e1bb3296edb074effb32a173e57ba47abe2.png" title=" Then product name should be (true)" width="1295"/>
+                <img src="4160ffd5326864e534041936316bcd9e162c9639e58847fa864b94355de6be32.png" title=" Then product price should be (true): <span class='success-color'>SUCCESS</span>" width="1295"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.81</span>
+</div>
+</body>
+</html>

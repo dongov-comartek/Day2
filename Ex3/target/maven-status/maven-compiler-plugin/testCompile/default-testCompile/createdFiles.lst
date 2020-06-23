@@ -1,0 +1,9 @@
+Ex3\platform\ProxiedDriver.class
+Ex3\ui\RegisterScreen.class
+Ex3\platform\AppiumObject.class
+Ex3\tasks\Register$RegisterBuilder.class
+Ex3\features\search\SearchByKeywordStory.class
+Ex3\questions\WelcomeFname.class
+Ex3\features\search\package-info.class
+Ex3\tasks\Register.class
+Ex3\actions\Press.class
